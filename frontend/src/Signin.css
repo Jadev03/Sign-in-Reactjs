@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set the body height to the full viewport height */
+    margin: 0;    /* Optional: Remove default margin */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Optional: Align items vertically */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 20px;
+
+}
+
+/* Additional styling for form items, adjust as needed */
+form input,
+form button {
+    margin: 10px;
+    /* Add any other styles as needed */
+}
+form input{
+    width:20rem;
+    height: 2rem;
+}
+form button{
+    width:10rem;
+    height:2rem;
+    cursor: pointer;
+}
